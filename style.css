@@ -333,6 +333,7 @@ nav li {
 }
 .sup {
   text-align: center;
+  width: 33%;
 }
 .sup > div:nth-child(2) {
   margin-bottom: 20px;
@@ -566,6 +567,7 @@ nav li {
   }
   .sup {
     margin-bottom: 48px;
+    width: 100%;
   }
   .sponsors {
     flex-wrap: nowrap;
