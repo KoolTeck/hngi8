@@ -1,0 +1,103 @@
+/* utils */
+
+.bighead {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 44px;
+  letter-spacing: 0.015em;
+  color: #084482;
+}
+
+.medhead {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #084482;
+}
+
+.medhead2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 44px;
+  letter-spacing: 0.015em;
+}
+
+.smallhead {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 0.015em;
+  color: #084482;
+}
+
+.smallbody {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 0.015em;
+  color: #333333;
+}
+
+.button {
+  padding: 10px 25px;
+  background-color: var(--blue);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tcenter {
+  text-align: center;
+}
+.aic {
+  align-items: center;
+}
+.jcc {
+  justify-content: center;
+}
+.jsp {
+  justify-content: space-between;
+}
+.mb48 {
+  margin-bottom: 48px;
+}
+.mb36 {
+  margin-bottom: 36px;
+}
+.mb24 {
+  margin-bottom: 24px;
+}
+.mb12 {
+  margin-bottom: 12px;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* end utils */
