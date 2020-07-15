@@ -450,9 +450,18 @@ nav li {
 .log > div {
   width: 100%;
   margin-bottom: 36px;
+  position: relative;
+}
+.log > div > svg {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  max-height: 30px;
 }
 .log input {
   padding: 16px 22px;
+  padding-left: 75px;
   box-sizing: border-box;
   border-radius: 5px;
   width: 100%;
