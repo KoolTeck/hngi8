@@ -40,7 +40,7 @@ const mainMenus = document.querySelectorAll('nav ul li');
 
 const home = document.querySelector('.started');
 const about = document.querySelector('.how');
-const mentors = document.querySelector('.curriculum > div:nth-child(3)');
+// const mentors = document.querySelector('.curriculum > div:nth-child(3)');
 // const contact = document.querySelector('.cont > div:nth-child(2)');
 
 const remove = () => {
@@ -58,10 +58,10 @@ const scrollList = (el) => {
         remove();
         about.scrollIntoView({ behavior: 'smooth' });
         break;
-      case 'Mentors':
-        remove();
-        mentors.scrollIntoView({ behavior: 'smooth' });
-        break;
+      // case 'Mentors':
+      //   remove();
+      //   mentors.scrollIntoView({ behavior: 'smooth' });
+      //   break;
       // case 'Contact':
       //   remove();
       //   contact.scrollIntoView({ behavior: 'smooth' });
