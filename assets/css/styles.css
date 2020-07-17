@@ -98,7 +98,7 @@ nav span {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 1.25rem;f
   line-height: 1.9rem;
 }
 
@@ -300,6 +300,9 @@ footer button {
   }
   .intern:last-child{
     padding-left: 0;
+  }
+  .intern img {
+    width: 150px;
   }
 }
 
