@@ -17,15 +17,16 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100%;
 }
-a,
-a:hover {
+a {
   text-decoration: none;
   color: inherit;
 }
 li {
   list-style-type: none;
 }
-
+.secmenu .button {
+  color: white !important;
+}
 nav {
   padding: 20px var(--padding);
   display: flex;
