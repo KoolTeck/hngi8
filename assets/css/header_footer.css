@@ -1,0 +1,248 @@
+nav{
+    background-color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon{
+    background-color: #00AEFF;
+    border-radius: 10px;
+    width: 36px;
+    height: 3px;
+}
+
+.navbar .collapse .nav-item a{
+    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.navbar .collapse .nav-item .active{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    color: #ffffff;
+    background-color: #00AEFF;
+    border-radius: 5px;
+    width: 100%;
+    height: 49px;
+}
+
+.navbar .collapse .nav-item .active:focus, .navbar .collapse .nav-item .active{
+    color: #ffffff;
+}
+
+.navbar .collapse .nav-item a:focus, .navbar .collapse .nav-item:hover{
+    color: #333333;
+}
+
+footer{
+    background-color: #084482;
+}
+
+footer .logo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60.2925px;
+    line-height: 71px;
+    color: #00AEFF;
+}
+
+footer .hng{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43.066px;
+    line-height: 45spx;
+    color: #FFFFFF;
+}
+
+footer .motto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15.5038px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+footer h4{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+footer h6{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+footer p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+footer .copyright{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+footer input{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+    height: 43px;
+}
+
+footer button{
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    height: 49px;
+    color: #FFFFFF;
+    background-color: #00AEFF;
+    border-radius: 5px;
+    order: 1;
+    align-self: center;
+    margin: 10px 0px;
+}
+
+footer .social-icons{
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.last-section .quick-links .item a{
+    color: #FFFFFF;
+}
+
+.last-section .quick-links .item a:focus, footer .quick-links .item:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+[class*="col-lg-3"]{
+    margin-top: 5%;
+}
+
+@media (max-width: 900px){
+    footer .logo{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25.3261px;
+        line-height: 30px; 
+        color: #00AEFF;        
+    }
+    
+    footer .hng{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18.0901px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    
+    footer .motto{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6.51243px;
+        line-height: 8px;
+        color: #FFFFFF;
+    }
+    
+    footer h4{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    
+    footer h6{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+    
+    footer p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    
+    footer .copyright{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16.533px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    footer input{
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 189.55px;
+        height: 23.56px;
+    }
+    
+    footer form button{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        align-self: center;
+        margin: 10px 0px;
+        width: 195.83px;
+        height: 26.96px;
+    }
+    
+    footer .social-icons{
+        justify-content: flex-end;
+    }
+    
+    .last-section .quick-links .item a{
+        color: #FFFFFF;
+    }
+    
+    .last-section .quick-links .item a:focus, footer .quick-links .item:hover{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+}
