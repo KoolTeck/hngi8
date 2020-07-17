@@ -292,6 +292,7 @@ select{
     font-size: 16px;
     line-height: 29px;
     color: #000000;
+    padding-left: 5px;
 }
   
 :-ms-input-placeholder { /* Internet Explorer */
@@ -301,6 +302,7 @@ select{
     font-size: 16px;
     line-height: 29px;
     color: #000000;
+    padding-left: 5px;
 }
   
 ::placeholder {
@@ -330,8 +332,8 @@ select{
         font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 28px;
-        line-height: 21px;
+        font-size: 40px;
+        line-height: 42px;
         letter-spacing: 0.015em;
         color: #084482;
     }
@@ -340,8 +342,8 @@ select{
         font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 13px;
-        line-height: 21px;
+        font-size: 20px;
+        line-height: 30px;
         letter-spacing: 0.015em;
         color: #000000;
     }
@@ -391,8 +393,8 @@ select{
         font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 40px;
+        line-height: 42px;
         letter-spacing: 0.015em;
         color: #084482;
     }
@@ -408,13 +410,13 @@ select{
     }
 
     .third-section .first-part .item{
-        margin-top: 100px;
-        padding: 2% 4%;
+        margin-top: 10%;
+        padding: 5% 5%;
         background-color: #00AEFF;
         border-radius: 5px;
         font-family: 'Lato', sans-serif;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 15px;
         line-height: 20px;
         letter-spacing: 0.015em;
