@@ -71,9 +71,11 @@ nav li {
   justify-content: center;
   align-items: flex-end;
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-right: calc(15% + 20px);
   text-align: right;
+  padding-top: 45px;
+  line-height: unset;
 }
 .secmenu > span {
   margin-bottom: 36px;
@@ -81,7 +83,7 @@ nav li {
 }
 .times {
   position: absolute;
-  top: 40px;
+  top: 25px;
   right: calc(15% + 10px);
   color: #00aeff;
 }
@@ -503,6 +505,21 @@ nav li {
     width: 100%;
     justify-content: space-between;
   }
+  .contact > div:first-child svg {
+    width: 100%;
+  }
+  .cont {
+    flex-direction: column;
+  }
+  .cont > div {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .cont4 {
+    align-items: flex-start;
+    width: 85% !important;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -572,17 +589,7 @@ nav li {
     flex-wrap: nowrap;
     flex-direction: column;
   }
-  .cont {
-    flex-direction: column;
-  }
-  .cont > div {
-    width: 100%;
-    margin-bottom: 48px;
-  }
-  .cont4 {
-    align-items: flex-start;
-    width: 85% !important;
-  }
+
   .counta {
     font-size: 18px;
   }
@@ -610,6 +617,3 @@ nav li {
     padding: 40px;
   }
 }
-
-/* @media screen and (max-width: 992px) {
-} */
