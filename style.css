@@ -24,7 +24,10 @@ a {
 li {
   list-style-type: none;
 }
-.secmenu .button {
+.secmenu a {
+  color: #162838;
+}
+.secmenu .button a {
   color: white !important;
 }
 nav {
