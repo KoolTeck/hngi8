@@ -17,7 +17,8 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100%;
 }
-a {
+a,
+a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -46,6 +47,7 @@ nav > span {
 nav > ul {
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 nav li {
   margin-left: 50px;
@@ -616,4 +618,7 @@ nav li {
     width: 100%;
     padding: 40px;
   }
+}
+.wow {
+  visibility: hidden;
 }

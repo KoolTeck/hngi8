@@ -88,3 +88,5 @@ document.addEventListener('click', ({ target }) => {
 
 menus.forEach(scrollList);
 mainMenus.forEach(scrollList);
+
+new WOW().init();
