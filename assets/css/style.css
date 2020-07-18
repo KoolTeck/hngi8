@@ -526,10 +526,307 @@ select {
     color: #ffffff;
   }
 
+.seventh-section .first-part .donate{
+    margin-top: 100px;
+    padding: 1% 3%;
+    background-color: #00AEFF;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 31px;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+.eighth-section{
+    background-color: #E7F7FF;
+    padding: 24% 0%;
+}
+
+.eighth-section h3{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 31px;
+    letter-spacing: 0.015em;
+    color: #084482;
+}
+
+.eighth-section p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.ninth-section{
+    width: 80%;
+    margin: 10% 10%;
+    border: 0.5px solid #000000;
+}
+.ninth-section .content{
+    padding: 5% 5%;
+}
+
+.ninth-section p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.seventh-section .first-part .donate:focus, .seventh-section .first-part .donate:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #000000;
+    padding-left: 5px;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer */
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #000000;
+    padding-left: 5px;
+}
+  
+::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.fourth-section, .fifth-section, .sixth-section, .seventh-section{
+    margin-top: 10%;
+}
+
+[class*="col-lg-6"]{
+    margin-top: 2.5rem;
+}
+
+[class*="col-lg-4"]{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 900px){
+    .first-section h3{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: 0.015em;
+        color: #084482;
+    }
+    
+    .first-section p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.015em;
+        color: #000000;
+    }
+    
+    .second-section{
+        width: 90%;
+    }
+    input{
+        width: 100%;
+        height: 54px;
+        border: 0.5px solid #000000;
+        border-radius: 5px;
+    }
+
+    .second-section button{
+        background-color: #00AEFF;
+        border-radius: 5px;
+        width: 70%;
+        height: 55px;
+        font-size: 18px;
+        line-height: 22px;
+    
+    }
+    
+    select{
+        width: 100%;
+        height: 54px;
+        border: 0.5px solid #000000;
+        border-radius: 5px;
+    }
+
+    .third-section button{
+        width: 70%;
+        height: 63px;
+        background: #00AEFF;
+        border-radius: 5px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+
+    .third-section h3{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: 0.015em;
+        color: #084482;
+    }
+    
+    .third-section p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 0.015em;
+        color: #000000;
+    }
+
+    .third-section .first-part .item{
+        margin-top: 10%;
+        padding: 5% 5%;
+        background-color: #00AEFF;
+        border-radius: 5px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+
+    .fourth-section h4{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.015em;
+        color: #000000;
+    }
+    
+    .fourth-section .card-text{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;    
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.015em;
+        color: #000000;
+    }
+
+    .fifth-section h4{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: #084482;
+    }
+
+    .fifth-section p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 21px;
+        letter-spacing: 0.015em;
+        color: #000000;
+    }
+    
+    .fifth-section button{
+        background: #00AEFF;
+        border-radius: 5px;
+        width: 40%;
+        height: 52px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 21px;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+
+    .fifth-section input{
+        width: 90%;
+        border: 0.5px solid #000000;
+        border-radius: 5px;
+    }
+
+    .seventh-section{
+        width: 100%;
+    }
+
+    .seventh-section h4{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: #084482;
+    }
+
+    .seventh-section p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.015em;
+        color: #000000;
+    }
+    
+    .seventh-section button{
+        background-color: #00AEFF;
+        border-radius: 5px;
+        width: 30%;
+        height: 45px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+}
   /*.fourth-section .categories{
         background-color: #ffffffd2;
         border: 1px;
         border-radius: 5px;
         box-shadow: 0.5px rgba(0, 0, 0, 0.5);
     }*/
-}
