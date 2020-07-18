@@ -144,6 +144,9 @@ nav li {
   align-items: center;
   padding: var(--padding);
 }
+.countdown > span {
+  overflow: initial;
+}
 
 .count {
   margin-right: 20px;
