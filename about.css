@@ -1,0 +1,288 @@
+:root {
+  --primary-color: #00aeff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 19px;
+}
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.main{
+  overflow-x: hidden;
+}
+.click{
+  background-color: #00AEFF;
+  color: #fff;
+  padding: 13px;
+  font-size: 18px;
+}
+
+.hero-section {
+  background-image: url(./assets/img/about.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hero-text h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 3.6rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.hero-text button {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.hero-text {
+  padding: 6rem 9rem;
+}
+
+.about-section {
+  padding-top: 3.7rem;
+}
+
+.about-section h2 {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: var(--primary-color);
+}
+
+.about-section p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 29px;
+  text-align: center;
+
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+.intership__working__details {
+  padding-top: 3.7rem;
+}
+
+.intership__working__details h2 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 3.6rem;
+  text-align: center;
+
+  color: var(--primary-color);
+}
+.intership__working__details p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 0 2rem;
+
+  color: #333333;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.about-card {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 3rem 0.2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 25%;
+}
+.about-card + .about-card {
+  margin-left: 1rem;
+}
+.about-card p {
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.perk {
+  border-bottom: 1px solid #c4c4c4;
+  padding: 1.5rem;
+}
+
+.perk:last-child {
+  border: none;
+}
+.perk h3 {
+  color: var(--primary-color);
+  font-weight: bold;
+  line-height: 43px;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.perk p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.sponsors-section {
+  padding-top: 3.7rem;
+}
+
+.sponsors-section h2 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2.25rem;
+  line-height: 31px;
+  font-weight: bold;
+  letter-spacing: 0.015em;
+}
+
+.img-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sponsor-img {
+  padding: 2rem;
+}
+
+.cta__btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-primary {
+  background: #00aeff;
+  border-radius: 5px;
+  border: none;
+}
+
+.partner__section {
+  margin: 2.2rem 0;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cols {
+  text-align: center;
+}
+.cols p {
+  padding: 1rem;
+}
+
+footer{
+  background: #084482;
+  color: #fff;
+  padding-top: 30px;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex; 
+}
+
+.layer{
+    background-color:whitesmoke;
+}
+
+.layer-1 {
+    flex: 1;
+}
+
+.layer-2 {
+    flex: 1;
+}
+
+.layer-3 {
+    flex: 1;
+}
+
+
+
+@media (max-width: 1000px) {
+  .hero-text {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 14px;
+  }
+
+  .card-section {
+    flex-wrap: wrap;
+  }
+
+  .about-card {
+    width: 45%;
+    margin: 1rem 0;
+  }
+  .about-card:first-child {
+    margin-left: 1rem;
+  }
+
+  .about-card + .about-card {
+    margin-left: 1rem;
+  }
+
+  .sponsor-img {
+    margin-top: 2rem;
+    width: 45%;
+  }
+}
